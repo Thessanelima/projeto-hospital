@@ -1,7 +1,18 @@
-body {
+.l_ogin {
+    background-color: rgb(158, 239, 250);
+}
+.body_tabela {
     align-items: center;
 }
-h1 {
-    background-color: rgb(158, 239, 250);
-    border-color: black; 
+.botao_p {
+    background-color: rgb(116, 205, 240);
+    border-radius: 16px;
+}
+.cad_p 
+.medico {
+    text-align: justify;
+    align-items: center
+}
+.edicao {
+    text-align: justify;
 }
