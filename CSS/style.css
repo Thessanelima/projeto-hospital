@@ -1,12 +1,54 @@
-.l_ogin {
-    background-color: rgb(158, 239, 250);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;     /* centraliza verticalmente */
+    height: 100vh;           /* ocupa toda a altura da tela */
+    margin: 0;
 }
+
+.log_b {
+    max-width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.logbutton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.l_ogin {
+    background-color: rgb(212, 231, 248);
+    border: 1px solid black;
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+}
+
+#link-login {
+    text-decoration: none;
+    color: black;
+}
+
+.link-principal {
+    text-decoration: none;
+    color: black;
+}
+
 .body_tabela {
     align-items: center;
 }
 .botao_p {
-    background-color: rgb(116, 205, 240);
-    border-radius: 16px;
+    background-color: rgb(212, 231, 248);
+    padding: 100px;
+    display: flex;
+    gap: 25px;
+    border: 1px solid black;
 }
 .cad_p 
 .medico {
