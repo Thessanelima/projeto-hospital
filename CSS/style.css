@@ -16,13 +16,59 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
 }
-
 .logbutton {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .l_ogin {
+    background-color: rgb(212, 231, 248);
+    border: 1px solid black;
+    max-width: 1000px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.link-principal {
+    text-decoration: none;
+    color: black;
+}
+.link-sair {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.body_tabela {
+    background-color: rgb(212, 231, 248);
+    max-width: 1000px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 60px auto;
+    text-align: center;
+}
+th {
+    padding: 15px;
+    border: 1px solid black;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color:rgba(83, 193, 237, 0.314);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.botao_p {
+    background-color: rgb(212, 231, 248);
+    padding: 100px;
+    display: flex;
+    flex-direction: column; 
+    gap: 25px;
+    border: 1px solid black;
+}
+.tela_p {
     background-color: rgb(212, 231, 248);
     border: 1px solid black;
     max-width: 800px;
@@ -30,31 +76,41 @@ body {
     text-align: center;
 }
 
-#link-login {
-    text-decoration: none;
-    color: black;
-}
-
-.link-principal {
-    text-decoration: none;
-    color: black;
-}
-
-.body_tabela {
-    align-items: center;
-}
-.botao_p {
+.cad_p {
     background-color: rgb(212, 231, 248);
-    padding: 100px;
-    display: flex;
-    gap: 25px;
     border: 1px solid black;
+    max-width: 1000px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-.cad_p 
+
 .medico {
-    text-align: justify;
-    align-items: center
+    background-color: rgb(212, 231, 248);
+    border: 1px solid black;
+    max-width: 800px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+.form {
+    padding: 10px;
+    border-radius: 1px solid gray;
+    width: 100%;
+    margin-top: 8px;   /* Adiciona espaço acima de cada paágrafo */
+    margin-bottom: 6px;   /*Adiciona espaço abaixo de cada parágrafo */
+    align-items: center;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+   
+}
+
 .edicao {
     text-align: justify;
 }
