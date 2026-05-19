@@ -112,5 +112,11 @@ table {
 }
 
 .edicao {
-    text-align: justify;
+   background-color: rgb(212, 231, 248);
+    max-width: 1000px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 60px auto;
+    text-align: center;
 }
