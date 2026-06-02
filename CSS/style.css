@@ -6,7 +6,21 @@ body {
     align-items: center;     /* centraliza verticalmente */
     height: 100vh;           /* ocupa toda a altura da tela */
     margin: 0;
+     background: linear-gradient(
+        135deg,
+        #6bdff9,
+        #a69fff
+    );
 }
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
 
 .log_b {
     max-width: 230px;
@@ -15,6 +29,8 @@ body {
     margin: auto;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
+    font-style:oblique;
+    color: rgb(3, 16, 56);
 }
 .logbutton {
     margin-top: 10px;
@@ -27,6 +43,9 @@ body {
     padding: 40px;
     text-align: center;
     margin-bottom: 10px;
+    border-radius: 10px;
+    color: rgb(3, 16, 56);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .link-principal {
@@ -46,6 +65,8 @@ body {
     border: 1px solid black;
     margin: 60px auto;
     text-align: center;
+    color: rgb(3, 16, 56);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 th {
     padding: 15px;
@@ -67,6 +88,9 @@ table {
     flex-direction: column; 
     gap: 25px;
     border: 1px solid black;
+    color: rgb(3, 16, 56);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 .tela_p {
     background-color: rgb(212, 231, 248);
@@ -74,7 +98,7 @@ table {
     max-width: 800px;
     padding: 40px;
     text-align: center;
-}
+    }
 
 .cad_p {
     background-color: rgb(212, 231, 248);
@@ -86,6 +110,8 @@ table {
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: rgb(14, 37, 112);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .medico {
@@ -98,6 +124,8 @@ table {
     text-align: center;
     display: flex;
     flex-direction: column;
+    color: rgb(3, 16, 56);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 .form {
     padding: 10px;
@@ -107,16 +135,5 @@ table {
     margin-bottom: 6px;   /*Adiciona espaço abaixo de cada parágrafo */
     align-items: center;
     font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-   
-}
-
-.edicao {
-   background-color: rgb(212, 231, 248);
-    max-width: 1000px;
-    padding: 40px;
-    border-radius: 10px;
-    border: 1px solid black;
-    margin: 60px auto;
-    text-align: center;
+    font-family: "Open Sans", sans-serif;  
 }
